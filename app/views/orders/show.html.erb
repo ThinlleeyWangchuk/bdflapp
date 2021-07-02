@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @order.name %>
+</p>
+
+<p>
+  <strong>Cidno:</strong>
+  <%= @order.cidNo %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @order.email %>
+</p>
+
+<p>
+  <strong>Mobileno:</strong>
+  <%= @order.mobileNo %>
+</p>
+
+<p>
+  <strong>Currentaddress:</strong>
+  <%= @order.currentAddress %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order), class:"btn btn-primary" %> |
+<%= link_to 'Back', orders_path, class:"btn btn-primary"%>
